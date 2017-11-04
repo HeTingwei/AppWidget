@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:layout_margin="@dimen/widget_margin"
+    android:background="@drawable/all">
+
+    <TextView
+       android:gravity="center"
+       android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="记事本"
+       android:textColor="#000000"
+       android:textSize="15sp" />
+    
+    
+        <TextView
+       android:layout_marginLeft="6dp"
+       
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=" "
+       android:textSize="1sp" />
+       
+       <LinearLayout 
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           > 
+        <Button
+       android:background="#00000000"
+       android:id="@+id/deskText"
+       android:text="文字"
+       android:textColor="#000000"
+       android:textSize="20sp"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+      
+       />
+        
+        <Button
+       android:background="#00000000"
+       android:id="@+id/deskPhoto"
+       android:text="照片"
+       android:textColor="#000000"
+       android:textSize="20sp"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+       
+       />
+        
+        <Button
+       android:background="#00000000"
+       android:id="@+id/deskVideo"
+       android:text="视频"
+       android:textColor="#000000"
+       android:textSize="20sp"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+      
+       />
+        
+   
+</LinearLayout> 
+   
+
+</LinearLayout>

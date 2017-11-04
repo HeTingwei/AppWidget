@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <!--指定该桌面组件的基本配置信息
+	updatePeriod：更新频率
+	initLayout 初始时显示的布局  -->
+	
+	<appwidget-provider
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:minHeight="50dp"
+	    android:minWidth="100dp"
+	    android:updatePeriodMillis = "1000"
+	    android:initialLayout ="@layout/desk1"
+	    />
