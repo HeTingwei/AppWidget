@@ -11,7 +11,7 @@
        android:layout_marginTop="5dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="记事本"
+       android:text="桌面控件"
        android:textColor="#000000"
        android:textSize="15sp" />
     
@@ -31,7 +31,7 @@
         <Button
        android:background="#00000000"
        android:id="@+id/deskText"
-       android:text="文字"
+       android:text="点击1"
        android:textColor="#000000"
        android:textSize="20sp"
        android:layout_width="0dp"
@@ -43,7 +43,7 @@
         <Button
        android:background="#00000000"
        android:id="@+id/deskPhoto"
-       android:text="照片"
+       android:text="点击2"
        android:textColor="#000000"
        android:textSize="20sp"
        android:layout_width="0dp"
@@ -55,7 +55,7 @@
         <Button
        android:background="#00000000"
        android:id="@+id/deskVideo"
-       android:text="视频"
+       android:text="点击3"
        android:textColor="#000000"
        android:textSize="20sp"
        android:layout_width="0dp"

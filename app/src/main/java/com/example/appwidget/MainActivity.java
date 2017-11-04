@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textview = (TextView) findViewById(R.id.textView);
         Intent intent = getIntent();
-        int result=intent.getIntExtra("data2",0);
+        int result=intent.getIntExtra("data",0);
         textview.setText(result+"");
     }
 

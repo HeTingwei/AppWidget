@@ -24,22 +24,22 @@ public class DesktopApp extends AppWidgetProvider {
 
 			// Create an Intent to launch ExampleActivity
 			RemoteViews views = new RemoteViews(context.getPackageName(),
-					R.layout.desk1);
+					R.layout.desk_app_layout);
 
 			Intent intent = new Intent();
-			intent.setAction(UPDATE_ACTION + "TEXT");
+			intent.setAction(UPDATE_ACTION + "msg1");
 			PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
 					0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 			views.setOnClickPendingIntent(R.id.deskText, pendingIntent);
 
 			Intent intent1 = new Intent();
-			intent1.setAction(UPDATE_ACTION + "PHOTO");
+			intent1.setAction(UPDATE_ACTION + "msg2");
 			PendingIntent pendingIntent1 = PendingIntent.getBroadcast(context,
 					0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
 			views.setOnClickPendingIntent(R.id.deskPhoto, pendingIntent1);
 
 			Intent intent2 = new Intent();
-			intent2.setAction(UPDATE_ACTION + "VIDEO");
+			intent2.setAction(UPDATE_ACTION + "msg3");
 			PendingIntent pendingIntent2 = PendingIntent.getBroadcast(context,
 					0, intent2, PendingIntent.FLAG_UPDATE_CURRENT);
 			views.setOnClickPendingIntent(R.id.deskVideo, pendingIntent2);
